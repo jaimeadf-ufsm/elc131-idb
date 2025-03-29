@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie_cast.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\person.dat;
+
+union:union(projection[movie_cast.character_name](movie_cast<470,720>)<430,660>,projection[person.person_name](person<650,720>)<620,660>)<580,600>;

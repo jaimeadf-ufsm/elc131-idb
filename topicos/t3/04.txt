@@ -1,0 +1,5 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie_cast.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\person.dat;
+
+projection[movie.title, movie_cast.character_name](filter[ (  ( movie.movie_Id == movie_cast.movie_id )AND ( person.person_id == movie_cast.person_id )AND ( movie_cast.character_name == 'Bruce WIllis' )AND ( movie.release_year > 2000 ) ) ](cartesianProduct(movie<450,480>,cartesianProduct(movie_cast<590,510>,person<720,510>)<690,470>)<600,450>)<90,390>)<490,330>;

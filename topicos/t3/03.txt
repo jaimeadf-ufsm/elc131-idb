@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie_cast.dat;
+
+projection[movie.title, movie_cast.character_name](filter[ ( movie_cast.movie_id == movie.movie_Id )](cartesianProduct(movie_cast<740,240>,movie<630,240>)<720,180>)<600,130>)<610,80>;

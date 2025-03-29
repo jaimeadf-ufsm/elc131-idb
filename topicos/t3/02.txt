@@ -1,0 +1,3 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie.dat;
+
+filter[ ( movie.release_year > 2005 )](movie<480,240>)<430,180>;
