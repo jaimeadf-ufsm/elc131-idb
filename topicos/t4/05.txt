@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie_cast.dat;
+
+projection[movie.title](antiJoin[movie.movie_Id=movie_cast.movie_id](movie<580,600>,movie_cast<720,600>)<580,520>)<660,460>;

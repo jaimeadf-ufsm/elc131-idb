@@ -1,0 +1,3 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie.dat;
+
+aggregation:aggregate[COUNT:movie.movie_Id](filter[ ( movie.release_year > 2000 )](movie<260,300>)<210,250>)<200,200>;

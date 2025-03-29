@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie_cast.dat;
+
+projection[movie.title, movie_cast.character_name](leftOuterJoin[movie.movie_Id=movie_cast.movie_id](filter[ ( movie.release_year == 2007 )](movie<180,610>)<140,560>,movie_cast<370,610>)<200,480>)<200,430>;

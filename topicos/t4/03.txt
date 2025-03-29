@@ -1,0 +1,3 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie.dat;
+
+filter[ ( aggregate.COUNT_movie_Id >= 5 )](hashGroup:aggregate[movie.release_year, COUNT:movie.movie_Id](movie<1050,320>)<920,270>)<980,220>;

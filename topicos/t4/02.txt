@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\movie_cast.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-ibd\topicos\t3\person.dat;
+
+aggregation:aggregate[AVG:movie.release_year](join[movie.movie_Id=movie_cast.movie_id](movie<480,200>,join[movie_cast.person_id=person.person_id](movie_cast<550,320>,filter[ ( person.person_name == 'Bruce Willis' )](person<730,320>)<650,270>)<570,200>)<490,140>)<500,80>;
