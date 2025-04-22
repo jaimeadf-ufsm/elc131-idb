@@ -1,0 +1,3 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t11\movie_cast.dat;
+
+projection[movie_cast.character_name, movie_cast.cast_order](filter[ ( movie_cast.cast_order > 23 )](movie_cast<190,370>)<140,310>)<80,240>;

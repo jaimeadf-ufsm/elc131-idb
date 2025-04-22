@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t11\idx_cast_order.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t11\movie_cast.dat;
+
+projection[movie_cast.character_name, idx_cast_order.cast_order](join[idx_cast_order.movie_id=movie_cast.movie_id, idx_cast_order.person_id=movie_cast.person_id](filter[ ( idx_cast_order.cast_order > 23 )](idx_cast_order<490,370>)<440,310>,movie_cast<790,310>)<430,240>)<540,160>;
