@@ -1,0 +1,5 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t13\movie_cast.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t13\movie.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t13\person.dat;
+
+projection[movie.title, person.person_name](join[movie_cast.movie_id=movie.movie_Id](join[movie_cast.person_id=person.person_id, movie_cast.character_name=person.person_name](movie_cast<320,490>,person<470,490>)<170,410>,movie<770,410>)<540,310>)<560,220>;
