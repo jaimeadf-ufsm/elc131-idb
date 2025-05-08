@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t15\movie.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t15\movie_cast.dat;
+
+projection:Plano B[m.title](hashLeftAntiJoin[m.movie_Id=mc.movie_id](movie:m<570,260>,filter[ ( mc.cast_order > 60 )](movie_cast:mc<760,340>)<730,260>)<610,170>)<640,110>;
