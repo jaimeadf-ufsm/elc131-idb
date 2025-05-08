@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t14\movie.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t14\movie_cast.dat;
+
+projection:Plano C[m.title, mc.character_name](join[mc.movie_id=m.movie_Id](filter[ ( mc.cast_order > 60 )](movie_cast:mc<480,660>)<490,590>,memoize(movie:m<660,660>)<650,590>)<520,510>)<500,450>;
