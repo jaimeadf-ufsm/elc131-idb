@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t16\movie_cast.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t16\movie.dat;
+
+hashDifference(projection[m.title](movie:m<390,400>)<410,340>,projection[mc.character_name](movie_cast:mc<530,400>)<510,340>)<500,280>;

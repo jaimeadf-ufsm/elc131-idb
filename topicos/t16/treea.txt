@@ -1,0 +1,4 @@
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t16\movie.dat;
+import C:\Users\jaime\Dev\Repositories\jaimeadf-ufsm\elc131-idb\topicos\t16\movie_cast.dat;
+
+difference(sort[ASC:m.title](projection[m.title](movie:m<110,400>)<130,340>)<120,270>,sort[ASC:mc.character_name](projection[mc.character_name](movie_cast:mc<250,400>)<230,340>)<220,270>)<220,220>;
